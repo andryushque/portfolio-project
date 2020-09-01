@@ -1,2 +1,30 @@
-/* Import fonts from fonts.css */
-@import url(./fonts.css);
+/*=== Import fonts ===*/
+@import url(../css/fonts.css);
+
+/*=== Import variables ===*/
+@import url(../css/partials/_variables.css);
+
+/*=== Navigation menu ===*/
+
+.header .main-menu .navbar {
+  padding: 1rem;
+}
+
+.header .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+}
+
+.header .main-menu .nav-item .nav-link {
+  padding: 1rem;
+  font: normal 500 16px/2px var(--roboto);
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.header .main-menu .navbar-nav .active .nav-link,
+.header .main-menu .navbar-nav .nav-link:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
