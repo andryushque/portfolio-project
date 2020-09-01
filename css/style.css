@@ -23,8 +23,5 @@
 
 .header .main-menu .navbar-nav .active .nav-link,
 .header .main-menu .navbar-nav .nav-link:hover {
-  background: var(--gradient-color);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--primary-color);
 }
