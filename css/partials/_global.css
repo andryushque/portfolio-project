@@ -11,6 +11,11 @@ body {
   font: normal bold 50px/72px var(--roboto);
 }
 
+.paragraph-text {
+  color: var(--text-color);
+  font: normal 400 16px/25px var(--roboto);
+}
+
 /*=== Buttons ===*/
 .button {
   position: relative;
