@@ -29,17 +29,17 @@
   color: var(--primary-color);
 }
 
-/*=== Banner ===*/
-.site-main .site-banner {
-  background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+/*=== Intro section ===*/
+.site-main .site-intro {
+  background: url(../img/intro/intro-bg.png) no-repeat 0% 50%;
 }
 
-.site-main .site-banner .site-title .suptitle {
+.site-main .site-intro .site-title .suptitle {
   padding-top: 35%;
   font-weight: 500;
 }
 
-.site-main .site-banner .site-title .suptitle::after {
+.site-main .site-intro .site-title .suptitle::after {
   content: "";
   display: inline-block;
   height: 2px;
@@ -49,15 +49,15 @@
   background: #000;
 }
 
-.site-main .site-banner .site-title .main-title {
+.site-main .site-intro .site-title .main-title {
   font-size: 5rem;
 }
 
-.site-main .site-banner .site-title .subtitle {
+.site-main .site-intro .site-title .subtitle {
   font-size: 1.5rem;
 }
 
-.site-main .site-banner .banner-image > .image {
+.site-main .site-intro .intro-image > .image {
   width: 90rem;
   padding: 7rem 0;
 }
