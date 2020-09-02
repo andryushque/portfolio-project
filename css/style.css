@@ -4,6 +4,9 @@
 /*=== Import variables ===*/
 @import url(../css/partials/_variables.css);
 
+/*=== Import global styles ===*/
+@import url(../css/partials/_global.css);
+
 /*=== Navigation menu ===*/
 
 .header .main-menu .navbar {
@@ -24,4 +27,37 @@
 .header .main-menu .navbar-nav .active .nav-link,
 .header .main-menu .navbar-nav .nav-link:hover {
   color: var(--primary-color);
+}
+
+/*=== Banner ===*/
+.site-main .site-banner {
+  background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+}
+
+.site-main .site-banner .site-title .suptitle {
+  padding-top: 35%;
+  font-weight: 500;
+}
+
+.site-main .site-banner .site-title .suptitle::after {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 18vw;
+  margin-left: 5%;
+  transform: translateY(-10px);
+  background: #000;
+}
+
+.site-main .site-banner .site-title .main-title {
+  font-size: 5rem;
+}
+
+.site-main .site-banner .site-title .subtitle {
+  font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > .image {
+  width: 90rem;
+  padding: 7rem 0;
 }
