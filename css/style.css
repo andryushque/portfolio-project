@@ -183,3 +183,27 @@
 .site-main .site-services .services:hover {
   box-shadow: var(--box-shadow);
 }
+
+/*=== Projects section ===*/
+.site-main .site-projects {
+  padding: 4rem 0;
+}
+
+.site-main .site-projects .button-group .tab-button {
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px var(--roboto);
+  text-transform: uppercase;
+}
+
+.site-main .site-projects .button-group .tab-button.active {
+  color: var(--primary-color);
+}
+
+.site-main .site-projects .button-group .tab-button + .tab-button {
+  margin-left: 3rem;
+}
+
+.site-main .site-projects .grid .our-project > .title h4 {
+  font: normal 700 25px/12px var(--roboto);
+}

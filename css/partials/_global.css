@@ -21,6 +21,16 @@ body {
 }
 
 /*=== Buttons ===*/
+button,
+button:hover,
+button:focus,
+button:active,
+.btn:active,
+.btn.active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 .button {
   position: relative;
   padding: 0.8rem 2.2rem;
