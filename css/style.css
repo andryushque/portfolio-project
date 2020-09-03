@@ -158,3 +158,28 @@
 .site-main .site-brand .experience-area .call-area {
   padding-left: 10rem;
 }
+
+/*=== Services section ===*/
+.site-main .site-services {
+  padding: 7rem 2rem;
+}
+
+.site-main .site-services .services-title {
+  padding: 0 14rem;
+}
+
+.site-main .site-services .services-title .title {
+  font-size: 35px;
+}
+
+.site-main .site-services .services {
+  width: 16rem;
+  margin: 5rem 0.5rem;
+  padding: 2rem 0;
+  background: rgba(248, 252, 253, 0.973);
+  transition: box-shadow 0.6s ease;
+}
+
+.site-main .site-services .services:hover {
+  box-shadow: var(--box-shadow);
+}
