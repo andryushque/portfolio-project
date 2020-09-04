@@ -1,0 +1,159 @@
+@media only screen and (max-width: 1200px) {
+  .header .main-menu .navbar {
+    padding: 1rem;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .site-main .site-brand,
+  .site-main .site-services .services-title,
+  .site-main .site-about {
+    padding: 3% 4%;
+  }
+
+  .site-main .site-brand .first-row {
+    margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .site-main .site-intro .intro-title .suptitle {
+    padding-top: 5rem;
+  }
+
+  .site-main .site-about .about-title .title > .title-span {
+    font: normal bold 30px/36px var(--roboto);
+    letter-spacing: 10px;
+  }
+
+  .site-main .site-about .about-title {
+    padding-bottom: 2rem;
+  }
+
+  .site-main .site-brand .first-row .col-lg-4 > .single-brand {
+    max-width: 75%;
+  }
+
+  .site-main .site-brand .first-row .col-lg-4 > .single-brand > .brand-image {
+    width: 100px;
+  }
+
+  .site-main .site-brand .experience-area .years-area {
+    padding-left: 0;
+    width: 49%;
+  }
+
+  .site-main .site-brand .experience-area .bg-panel {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .site-main .site-brand .experience-area .call-area {
+    padding-left: 0;
+  }
+
+  .site-main .site-services {
+    padding: 5rem 0;
+  }
+
+  .site-main .site-services .services {
+    max-width: 100%;
+    margin: 2rem 0.5rem;
+  }
+
+  .site-main .site-projects .button-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .site-main .site-projects .button-group .tab-button {
+    font: normal 500 18px/50px var(--roboto);
+  }
+
+  .site-main .site-projects .button-group .tab-button + .tab-button {
+    margin-left: 0;
+  }
+
+  .site-main .site-about .about-title .paragraph-text {
+    padding: 0%;
+  }
+
+  .site-main .site-subscribe .subscribe form .input-textbox input {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .header .main-menu .navbar,
+  .header .main-menu .navbar .navbar-brand,
+  .site-main .site-subscribe .subscribe .subscribe-title,
+  .site-main .site-subscribe .subscribe .subscribe-title p,
+  h4,
+  .site-main .site-services {
+    padding: 0;
+    margin: 0;
+  }
+
+  .site-main .site-about .client .client-img {
+    padding: 1rem;
+  }
+
+  .site-main .site-about .client .about-client {
+    padding: 1rem;
+  }
+
+  .site-main .site-subscribe .subscribe {
+    padding: 5rem 2.5rem;
+  }
+
+  .site-main .site-intro .intro-title .main-title {
+    font-size: 3.5rem;
+  }
+
+  .site-main .site-intro .intro-title .subtitle {
+    margin-bottom: 1rem;
+    font: normal bold 20px/24px var(--roboto);
+  }
+
+  .site-main .site-intro .site-buttons .flex-row {
+    flex-direction: column !important;
+  }
+
+  .site-main .site-intro .button.primary-button,
+  .site-main .site-intro .button.secondary-button {
+    width: 75%;
+    margin-right: 0 !important;
+    margin-bottom: 1rem;
+  }
+
+  .site-main .site-services .services {
+    margin: 2rem 0;
+  }
+
+  .site-main .site-subscribe .subscribe {
+    background: var(--gradient-color);
+  }
+
+  .site-main .site-subscribe .subscribe .subscribe-title .paragraph-text {
+    padding: 1rem;
+  }
+
+  .site-main .site-subscribe .subscribe form {
+    width: 100% !important;
+  }
+
+  .site-main .site-subscribe .subscribe form .flex-row {
+    flex-direction: column !important;
+  }
+
+  .site-main .site-subscribe .subscribe form .input-textbox input {
+    width: 100% !important;
+  }
+
+  .footer {
+    padding: 3rem 0;
+  }
+}
