@@ -216,3 +216,42 @@
 .site-main .site-projects .grid .our-project .img:hover {
   filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
+
+/*=== About section ===*/
+.site-main .site-about .about-title .paragraph-text {
+  padding: 1rem 7rem;
+}
+
+.site-main .site-about .client {
+  margin: 3rem 0;
+  background: #ffffff10;
+  box-shadow: var(--box-shadow);
+}
+
+.site-main .site-about .client .client-img {
+  padding: 2rem;
+}
+
+.site-main .site-about .client .about-client {
+  padding-top: 2rem;
+}
+
+.site-main .site-about .client .about-client h4 {
+  font: normal 500 21px/20px var(--roboto);
+}
+
+.site-main .site-about .client .about-client .paragraph-text {
+  font-size: 14px;
+}
+
+.site-main .site-about .owl-carousel .owl-item {
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+.site-main .site-about .owl-carousel .owl-dots .owl-dot.active span {
+  width: 12px;
+  height: 12px;
+  background: var(--primary-color);
+}

@@ -16,4 +16,19 @@ $(document).ready(function () {
   });
 
   $("#btn-all").trigger("click");
+
+  /*=== Owl carousel ===*/
+  $(".site-main .site-about .owl-carousel").owlCarousel({
+    loop: true,
+    autoplay: true,
+    dots: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      560: {
+        items: 2,
+      },
+    },
+  });
 });
