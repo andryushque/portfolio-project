@@ -208,6 +208,6 @@
   font: normal 700 25px/12px var(--roboto);
 }
 
-.site-main .site-projects .grid .our-project .img .image-popup-link:hover {
+.site-main .site-projects .grid .our-project .img:hover {
   filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
