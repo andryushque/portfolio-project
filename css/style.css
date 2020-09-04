@@ -255,3 +255,43 @@
   height: 12px;
   background: var(--primary-color);
 }
+
+/*=== Subscribe section ===*/
+.site-main .site-subscribe .subscribe {
+  margin: 3rem auto;
+  padding: 10rem 0;
+  background: url(../img/subscribe-bg.png) no-repeat;
+}
+
+.site-main .site-subscribe .subscribe .subscribe-title h4 {
+  font: normal 700 30px/30px var(--roboto);
+  color: #f5f5f5;
+}
+
+.site-main .site-subscribe .subscribe .subscribe-title .paragraph-text {
+  padding: 1rem 4rem;
+  color: #f5f5f5;
+}
+
+.site-main .site-subscribe .subscribe form .input-textbox input {
+  width: 400px;
+  padding: 1.5rem 1rem;
+  border: 1px solid #f5f5f5;
+  background: transparent;
+  color: #f5f5f5;
+  font: normal 500 17px/20px var(--roboto);
+}
+
+.site-main .site-subscribe .subscribe form .input-textbox input::placeholder {
+  color: #f5f5f5;
+}
+
+.site-main .site-subscribe .subscribe form .btn-submit button {
+  padding: 0.7rem 2rem;
+  background: #f5f5f5;
+  color: #000;
+  border: none;
+}
+.site-main .site-subscribe .subscribe form .btn-submit button:hover {
+  background: #fff;
+}
