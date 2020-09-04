@@ -16,10 +16,4 @@ $(document).ready(function () {
   });
 
   $("#btn-all").trigger("click");
-
-  /*=== Magnific Popup ===*/
-  $(".site-projects .image-popup-link").magnificPopup({
-    type: "image",
-    gallery: { enabled: true },
-  });
 });
