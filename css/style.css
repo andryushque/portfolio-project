@@ -292,6 +292,27 @@
   color: #000;
   border: none;
 }
+
 .site-main .site-subscribe .subscribe form .btn-submit button:hover {
   background: #fff;
+}
+
+/*=== Footer ===*/
+.footer {
+  padding: 5rem 0;
+  background: url(../img/footer-bg.png) no-repeat;
+}
+
+.footer .social h5 {
+  font: normal 500 23px/30px var(--roboto);
+}
+
+.footer .social a > i {
+  padding: 2rem;
+  font-size: 22px;
+  color: var(--border-color);
+}
+
+.footer .social a > i:hover {
+  color: var(--primary-color);
 }
