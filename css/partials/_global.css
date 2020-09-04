@@ -82,3 +82,16 @@ button:active,
   color: #f5f5f5;
   box-shadow: var(--box-shadow);
 }
+
+/*=== Fixed header ===*/
+.navbar-fixed {
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  box-shadow: var(--box-shadow);
+  z-index: 1000;
+  transition: background 1s ease;
+}
